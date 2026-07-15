@@ -1,7 +1,5 @@
 package builder;
 
-import java.sql.ConnectionBuilder;
-
 public class Computer {
     public Computer(Builder builder) {
         System.out.println(builder.toString());;
