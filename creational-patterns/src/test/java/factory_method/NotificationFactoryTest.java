@@ -1,0 +1,9 @@
+package factory_method;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+class NotificationFactoryTest {
+
+
+
+}

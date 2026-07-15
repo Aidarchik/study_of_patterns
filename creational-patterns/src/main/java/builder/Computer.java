@@ -1,8 +1,15 @@
 package builder;
 
 public class Computer {
+    private final String cpu;
+
     public Computer(Builder builder) {
+        this.cpu = builder.cpu;
         System.out.println(builder.toString());;
+    }
+
+    public String getCpu() {
+        return this.cpu;
     }
 
     public static class Builder {
