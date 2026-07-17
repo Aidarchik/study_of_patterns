@@ -15,12 +15,12 @@ class GuiFactoryTest {
         GuiFactory factory = new DarkGuiFactory();
 
         // 2. Фабрика должна уметь создавать абстрактные кнопку и чекбокс
-        Button button = factory.createButton();
-        Checkbox checkbox = factory.createCheckbox();
+        ButtonAF button = factory.createButton();
+        CheckboxAF checkbox = factory.createCheckbox();
 
         // 3. Проверяем, что создались именно ТЁМНЫЕ элементы
         assertNotNull(button);
         assertNotNull(checkbox);
-        assertTrue(button instanceof DarkButton);
+        assertTrue(button instanceof DarkButtonAF);
     }
 }
